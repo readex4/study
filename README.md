@@ -1,5 +1,7 @@
 # YEOBOYA Javascript Fullstack Orientation
 
+
+
 ## 소개
 * (주)여보야 스마트사업부 웹개발자 교육을 위한 OT입니다.
 * OT를 통해 과거부터 현재까지의 웹흐름을 알아보고 Javascript Fullstack에 대한 커리큘럼 계획들을 확인합니다.
@@ -106,7 +108,7 @@
   <p>
     
   * 서버단 즉 Backend를 제어하고 처리가 가능한 Javascript Framework
-  * 초기에는 세션서버 또는 패킷서버등의 socket Event 처리 I/O 를 담당
+  * 초기에는 세션서버 또는 패킷서버등의 Socket Event 처리 I/O 를 담당
   * `Express.js` `Koa.js`같은 웹서버 모듈이 탄생
   * 장점  
     * 비동기처리방식으로 결과값을 기다리지 않고 보다 다양한 요청을 처리할 수 있다
@@ -171,13 +173,12 @@
   </p>
 </details>
 
-## Javascript Fullstack WebDeveloper Skill (Nuxt.js)
+## Javascript Fullstack WebDeveloper Skill
   * ECMAScript
   * Node.js
   * Express.js
-  * Vue.js
-  * VueX
-  * Nuxt.js
+  * Vue.js or React.js
+  * Nuxt.js or Next.js
   * Component Design Patterns
   * Type Checking (Typescript + Jsdoc)
   * Unit Test
