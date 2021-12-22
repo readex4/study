@@ -221,6 +221,9 @@
 </details>
 
 ## Javascript Fullstack WebDeveloper Skill
+<details><summary></summary>
+  <p>
+    
   * ECMAScript
   * Node.js
   * Express.js
@@ -229,8 +232,13 @@
   * Component Design Patterns
   * Type Checking (Typescript + Jsdoc)
   * Unit Test
-
+  </p>
+</details>
+    
 ## Javascript Fullstack Curriculum Sequence
+<details><summary></summary>
+  <p>
+    
   * 형상관리 시스템
   * HTML과 웹의 기초
   * CSS의 기초와 응용
@@ -252,3 +260,5 @@
   * Vue.js
   * Nuxt.js
   * Express.js
+  </p>
+</details>    
