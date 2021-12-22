@@ -220,6 +220,7 @@
   </p>
 </details>
 ## Why?
+
 ## Javascript Fullstack WebDeveloper Skill
 <details><summary></summary>
   <p>
