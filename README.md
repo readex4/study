@@ -239,8 +239,8 @@
 <details><summary></summary>
   <p>
     
-  * 형상관리 시스템
-  * HTML과 웹의 기초
+  * [형상관리 시스템](./Quest00/README.md)
+  * [HTML과 웹의 기초](./Quest01/README.md)
   * CSS의 기초와 응용
   * 자바스크립트와 DOM
   * OOP (Object-Oriented Programming) 객체지향프로그래밍
