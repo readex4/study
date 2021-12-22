@@ -166,7 +166,6 @@
 <details><summary>Javascript Fullstack</summary>
   <p>
     
-  * `db` + `Express` + `Vue` or `React` + `css`
   * `db` + `Nuxt` or `Next` + `css`  
   * `db` + `Express` + `Nuxt` or `Next` + `css`    
     
