@@ -126,13 +126,35 @@
 <details><summary>Node.js</summary>
   <p>
     
-  * 서버단 즉 Backend를 제어하고 처리가 가능한 Javascript Framework
-  * 초기에는 세션서버 또는 패킷서버등의 Socket Event 처리 I/O 를 담당
-  * `Express.js` `Koa.js`같은 웹서버 모듈이 탄생
+  * Backend를 제어하고 처리가 가능한 Javascript Framework
+  * 세션서버 또는 패킷서버등 다른용도로도 사용이 가능
+  * 웹뿐만 아니라 IoT서비스같은 인베디드 시스템에도 이용이 
   * 장점  
     * 비동기처리방식으로 결과값을 기다리지 않고 보다 다양한 요청을 처리할 수 있다.
-    * module 기능을 통해 다양하고 강력한 확장성을 제공
+    * 이벤트 루프를 기반으로하여 급격한 부하의 증가도 견딜 수 있다.
+    * 대량의 요청을 동시에 효율적으로 처리 할 수 있다.
+    * `Node.js`를 기반으로 한 다양한 라이브러리들이 존재  (`Express`, `Prettier`, `ESLint` 등등)
     * `npm` or `yarn`을 이용한 의존성 처리 및 관리의 용의
+    <details><summary>Express.js</summary>
+      <p>
+        
+      * Node.js의 대표적인 웹서버 Framework
+      </p>
+    </details>    
+    <details><summary>Prettier.js</summary>
+      <p>
+        
+      * 코드 편집기에 직접 설치할 수있는 뛰어난 코드 포맷터
+      * 협업시 모든 개발자가 동일한 코딩스타일을 만들도록 해준다.
+      </p>
+    </details>    
+    <details><summary>ESLint.js</summary>
+      <p>
+        
+      * 존재하지 않거나 사용되지 않는 변수, 이중 선언, 잘못된 코드 구성, 구문 오류 체크해준다.
+      * AirBnb와 같은 기존 개발 스타일을 사용하거나 자신만의 규칙을 지정할 수 있다.
+      </p>
+    </details>    
     <details><summary>Npm</summary>
       <p>
 
@@ -148,18 +170,6 @@
       * npm보다 더욱 빠르게 패키지를 인스톨하는 방법과 의존성 관리를 다양한 디바이스에서 일관성 있게 할 수 있다.
       </p>
     </details>
-    <details><summary>Express.js</summary>
-      <p>
-        
-      * Node.js의 대표적인 웹서버 Framework
-      </p>
-    </details>
-    <details><summary>Koa.js</summary>
-      <p>
-
-      * Express.js의 라이센스가 IBM에 넘어가고 Express 개발자들이 새롭게 만든 차세대 모듈
-      </p>
-    </details>    
 
   </p>
 </details>
@@ -219,7 +229,18 @@
 
   </p>
 </details>
+
 ## Why?
+<details><summary></summary>
+  <p>
+    
+  * 시간과 비용 절약
+  * 안정적이고 검증된 기술
+  * Frontend, Backend 모두 사용가능
+  </p>
+</details>
+
+
 
 ## Javascript Fullstack WebDeveloper Skill
 <details><summary></summary>
