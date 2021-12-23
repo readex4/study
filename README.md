@@ -32,8 +32,6 @@
   </p>
 </details>
 
-<br> 
-
 <details><summary>SPA (Single Page Application)</summary>
   <p>
 
@@ -178,8 +176,6 @@
 
   </p>
 </details>
-
-<br>
 
 <details><summary>Javascript Fullstack</summary>
   <p>
