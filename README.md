@@ -30,6 +30,9 @@
     
   </p>
 </details>
+
+<br> 
+
 <details><summary>SPA (Single Page Application)</summary>
   <p>
 
@@ -173,6 +176,9 @@
 
   </p>
 </details>
+
+<br>
+
 <details><summary>Javascript Fullstack</summary>
   <p>
     
@@ -248,7 +254,7 @@
     
   * ECMAScript
   * Node.js
-  * Express.js
+  * Express.js or Koa.js
   * Vue.js or React.js
   * Nuxt.js or Next.js
   * Component Design Patterns
