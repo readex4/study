@@ -191,6 +191,7 @@
     * middleware 기능을 통한 `api`를 통해 `CRUD`를 처리
     * 장점  
       * Javascript로 Frontend를 넘어서 Backend까지 하나의 언어로 처리가능
+    <br>
     <details><summary>Nuxt.js</summary>
       <p>
         
