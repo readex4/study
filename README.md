@@ -50,7 +50,7 @@
 
 ## 목차
 
-* [Quest 00. 형상관리 시스템](./Quest00/README.md)
+* [Quest 00. 형상관리 시스템](./Quest00/)
 * [Quest 01. HTML과 웹의 기초](./Quest01/README.md)
 * [Quest 02. CSS의 기초와 응용](./Quest02/README.md)
 * [Quest 03. 자바스크립트와 DOM](./Quest03/README.md)
