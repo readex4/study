@@ -1,20 +1,118 @@
+
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<!-- TODO: 또 무엇이 필요할까요? -->
-	</head>
-	<body>
-		<header>
-			<!-- TODO: 어디까지를 header로 보는 것이 좋을까요? -->
-		</header>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- TODO: 또 무엇이 필요할까요? -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div header>
+        <!-- TODO: 어디까지를 header로 보는 것이 좋을까요? -->
+        <!-- 최상단 메뉴 아이콘, qr체크인, 네이버페이, 다운로드(?)-->
+        <img src="">
+        <ul>
+            <li><img src="QR체크인.img"></li>
+            <li><img src="Npay.img"></li>
+            <li><img src="다운로드.img"></li>
+        </ul>
+    </div>
 
-		<section class="main">
-			<!-- TODO: main은 어떤 식으로 나눌 수 있을까요? -->
-		</section>
+    <section class="main">
+        <!-- TODO: main은 어떤 식으로 나눌 수 있을까요? -->
+        <!-- 줄별로 나눈다.-->
+        <div class="logo"><a>Naver</a></div>
+        <div class="sch"><input type="text"><img src="마이크.img"><img src="사진기.img"><img src="지도마커.img"></div>
+        <div class="items">
+            <ul>
+                <li><img src="뉴스판"></li>
+                <li><img src="경제지표판"></li>
+                <li><img src="연예판"></li>
+                <li><img src="트렌드판"></li>
+                <li><img src="메일"></li>
+                <li><img src="카페"></li>
+                <li><img src="블로그"></li>
+                <li><img src="..."></li>
+            </ul>
+        </div>
+        <div class="banner">
+            <div class="easyWeather">
+                <img scr="날씨그림">
+                <a><b>맑음</b></a>
+                <a>어제보다 2도 높아요</a>
+            </div>
+            <div>
+                <a><img src="1"></a>
+                <a><img src="2"></a>
+                <a><img src="3"></a>
+            </div>
+        </div>
+        <div class="weather">
+            <div><b>날씨</b>서울시 잠실동<a><img src="현위치"></a></div>
+            <div>
+                <button>시간대별 날씨</button>
+                <button>시간대별 미세먼지</button>
+                <button>주간 날씨</button>
+                <button>주간 미세먼지</button>
+            </div>
+            <div>
+                <img src="어제">
+                <img src="오늘">
+                <img src="월">
+                <img src="화">
+                <img src="수">
+                <img src="목">
+                <img src="금">
+                <img src="토">
+                <img src="일">
+            </div>
+            <div>
+                <button>어제</button>
+                <button>오늘</button>
+                <button>월</button>
+                <button>화</button>
+                <button>수</button>
+                <button>목</button>
+                <button>금</button>
+                <button>토</button>
+                <button>일</button>
+            </div>
+        </div>
+        <div class="covid">
+            <div><a><img src="covidSlide">코로나19</a><br>국내외 확진 현황</div>
+            <div><a><img src="covidsOX">코로나19 팩트체크</a><br>백신 정보 팩트는?</div>
+        </div>
+        <div class="anniversary"><a><img src="building">제 102주년 <b>대한민국 임시정부 수립일</b></a></div>
+        <div class="app"><a><img src="appLogo">앱으로 <b>새로운 네이버</b>를 더 쾌적하게 사용해보세요.</a><a>앱 사용하기</a></div>
+        <div class="webtoon"><b>웹툰</b><img src="arrowDown"></div>
+        <div class="board">
+            <div><b>인기 주제 판을 확인해보세요!</b><a>판관리</a></div>
+            <div>
+                <ul>
+                    <li><a><img src="영화">영화판</a></li>
+                    <li><a><img src="뿜판">뿜판</a></li>
+                    <li><a><img src="웹툰판">웹툰판</a></li>
+                    <li><a><img src="경제M판">경제M판</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="notification">
+            <a><img src="알립니다">네이버앱 업데이트 사전안내</a>
+        </div>
+    </section>
 
-		<footer>
-			<!-- TODO: 하단의 여러 가지 링크들은 어떻게 처리하면 좋을까요? -->
-		</footer>
-	</body>
+    <div footer>
+        <!-- TODO: 하단의 여러 가지 링크들은 어떻게 처리하면 좋을까요? -->
+        <!--각각 a링크로 걸고 display에 inline속성주기-->
+        <a>로그인</a>
+        <a>전체서비스</a>
+        <a>PC버전</a><br>
+        <a>이용약관</a>
+        <a><b>개인정보처리방침</b></a>
+        <a>고객센터</a><br>
+        <a><b>NAVER</b></a>
+    </div>
+</body>
 </html>
