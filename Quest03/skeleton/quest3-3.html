@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>구구단 게임</title>
+
+    <style>
+      body {
+        width: 50%;
+        max-width: 800px;
+        min-width: 480px;
+        margin: 0 auto;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <h1>구구단 게임</h1>
+
+    <li style="margin-bottom:5px;">랜덤값으로 지정할 수 있는 최대 자릿수는 3입니다.</li>
+    <li style="margin-bottom:5px;">자릿수를 등록하면 해당 자릿수 크기의 숫자 2개가 랜덤으로 표시 됩니다.</li>
+    <li style="margin-bottom:5px;">랜덤으로 표시되는 2개 숫자의 곱셈값을 기록하세요.</li>
+    <div class="setDigitForm">
+      <label for="setDigitNum">자릿수를 설정해주세요: </label>
+      <input type="text" id="setDigitNum" class="setDigitNum">
+      <input type="submit" value="등록" class="setDigitSubmit">
+    </div>
+	
+    <div class="form" style="margin-top:40px;">
+      <sapn id="randA">랜덤값A</sapn> X <sapn id="randB">랜덤값B</sapn> =  <input type="text" id="guessField" class="guessField">
+      <input type="submit" value="정답확인" class="guessSubmit">
+    </div>
+
+    <div class="resultArea" style="margin-top:40px;">
+      <span>정답여부는 여기에!!</span>
+    </div>
+
+    <script>
+      /** TODO: 여기에 게임이 작동될 수 있도록 스크립트를 짜보세요  */
+
+    </script>
+  </body>
+</html>
