@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>숫자야구 게임</title>
+
+    <style>
+      body {
+        width: 50%;
+        max-width: 800px;
+        min-width: 480px;
+        margin: 0 auto;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <h1>숫자야구 게임</h1>
+
+    <li style="margin-bottom:5px;">게임시작을 누르면 랜덤값으로 세자리의 숫자가 지정됩니다.</li>
+    <li style="margin-bottom:5px;">랜덤값 세자리에 표시되는 각각의 숫자는 0이 나올 수 없으며 서로 중복값이 있어서는 안됩니다.</li>
+    <li style="margin-bottom:5px;">유저는 임의 세자리를 기록해서 맞는지 결과를 확인합니다.</li>
+    <li style="margin-bottom:5px;">회별로 기록한 숫자와 설정된숫자를 비교해서 상황을 표현해 줍니다.</li>
+    <li style="margin-bottom:5px;">야구게임이니 9회안에 맞추고 실패시 패배입니다.</li>
+    <div class="setDigitForm">
+      <input type="submit" value="게임시작" class="setDigitSubmit">
+    </div>
+	
+    <div class="form" style="margin-top:40px;">
+      <input type="text" id="guessField" class="guessField">
+      <input type="submit" value="정답확인" class="guessSubmit">
+    </div>
+
+    <div class="resultArea" style="margin-top:40px;">
+      <span>정답여부는 여기에!!</span>
+    </div>
+
+    <script>
+      /** 
+        # 재령씨를 위한 게임룰 #
+        
+		정답이 176 이라고 했을때
+		1. 485 - 들어맞는 숫자가 아예 없으므로 아웃. 이때부터 4, 5, 8이 후보에서 빠지므로 남는 숫자는 1, 2, 3, 6, 7, 9다  (resultArea 안에 다음과 같이 표현  1회: OUT)
+		2. 312 - 1이 있지만 위치가 다르므로 1볼. (resultArea 안에 1줄 추가  2회: 1볼)
+		3. 167 - 숫자는 전부 맞지만 위치는 1만 맞고 나머지 둘은 다르므로 1스트라이크 2볼. (resultArea 안에 1줄 추가  3회: 1S 2B)
+		4. 671 - 숫자는 전부 맞지만 위치는 다르므로 3볼. (resultArea 안에 1줄 추가  4회: 3B)
+		5. 176 - 전부 맞으므로 승리 (resultArea 안에 1줄 추가  5회: 3S 승리!)     
+      */
+      	
+      /** TODO: 여기에 게임이 작동될 수 있도록 스크립트를 짜보세요  */
+      
+
+    </script>
+  </body>
+</html>
