@@ -70,5 +70,4 @@
 * [Quest 17. 배포 파이프라인](./Quest17/)
 * [Quest 18. 서비스의 운영: 로깅과 모니터링](./Quest18/)
 * [Quest 19. Nuxt.js](./Quest19/)
-* [Quest 20. Express.js](./Quest20/)
-* [Quest 21. 세상 밖으로](./Quest21/)
+* [Quest 20. 세상 밖으로](./Quest20/)
