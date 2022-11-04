@@ -13,7 +13,7 @@
   * [Lifecycle Hooks](https://v3.vuejs.org/guide/composition-api-lifecycle-hooks.html)
   * [State Management](https://v3.vuejs.org/guide/state-management.html)
   * [Virtual DOM](https://v3.vuejs.org/guide/optimizations.html#virtual-dom)
-* [Vue] (https://developer.mozilla.org/ko/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_getting_started)  
+* [Vue](https://developer.mozilla.org/ko/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_getting_started)  
 
 ## Checklist
 * Vue.js는 어떤 특징을 가지고 있는 웹 프레임워크인가요?
