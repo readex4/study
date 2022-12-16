@@ -1,0 +1,17 @@
+[*]
+end_of_line=crlf
+insert_final_newline=false
+indent_style=tab
+indent_size=4
+
+[{composer.lock,.babelrc,.stylelintrc,.eslintrc,jest.config,*.json,*.jsb3,*.jsb2,*.bowerrc}]
+indent_style=space
+indent_size=2
+
+[{*.html,*.phtml,*.module,*.php,*.php5,*.php4,*.hphp,*.inc,*.twig}]
+indent_style=tab
+tab_width=4
+
+[{*.yml,*.yaml}]
+indent_style=space
+indent_size=2
